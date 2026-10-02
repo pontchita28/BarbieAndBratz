@@ -1,20 +1,20 @@
+// the Barbie class will inherit the Doll class and have all the previous 
+// characteristics and functions
+
 class Barbie extends Doll{
-	public Dreamhouse dreamhouse;
+	// add specific characteristics for the Barbie dolls
+	Dreamhouse dreamhouse;
 	
-	Barbie(String name, String hairColor, String outfit, String career){
-		super(name, hairColor, outfit, career);
+	Barbie(){
+		// call on the super class constructor with the super() function 
+		// by passing the characteristics of the dolls
+		
+		// define the specific characteristics for 
 	}
 	
-	public void defineDreamhouse(String color, String adress, int nbRooms, int value) {
-		this.dreamhouse = new Dreamhouse(color, adress, nbRooms, value);
-	}
+	// add a function for the Barbie's Dreamhouse 
 	
-	public String toString() {
-		return "My name is " + this.name + ". I am a Barbie. I am a/an " 
-				+ this.career + ". I love to wear " + this.outfit + ".";
-	}
 	
-	public void present () {
-		System.out.println(this.toString());
-	}
+	// override the toString() function to have a distinction between the dolls in the terminal
+	
 }

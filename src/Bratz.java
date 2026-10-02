@@ -1,28 +1,12 @@
+// Bratz also inherits from the Doll class
 
 public class Bratz extends Doll	{
-	public String career;
-	public String personality;
-	public Bratz bestfriend;
+	// add the specific characteristics of the Bratz
 	
-	Bratz(String name, String hairColor, String outfit, String career, String personality){
-		super(name, hairColor, outfit, career);
-		this.personality = personality;
-	}
+	// initialize the constructor of the Bratz
 	
-	Bratz(String name, String hairColor, String outfit, String career, String personality, Bratz bestfriend){
-		super(name, hairColor, outfit, career);
-		this.personality = personality;
-		this.bestfriend = bestfriend;
-		
-	}
 	
-	public String toString() {
-		return "Hello, I am " + this.name + ". I am a Bratz. I am a/an " + this.career 
-				+ ". I love to wear " + this.outfit + ".";
-	}
-	
-	void present() {
-		System.out.println(toString());
-	}
+	// override the toString() function to be specific to the Bratz
+
 	
 }

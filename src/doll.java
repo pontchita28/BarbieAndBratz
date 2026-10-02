@@ -1,32 +1,15 @@
 abstract class Doll {
-	public String name;
-	public String hairColor; 
-	public String outfit;
-	public String career;
+	// add the general characteristics of dolls
 	
-	Doll(String name, String hairColor, String outfit, String career){
-		this.name = name;
-		this.hairColor = hairColor;
-		this.outfit = outfit;
-		this.career = career;
-	}
+	// create a Doll constructor by passing the values of the characteristics
+	// of the dolls
 	
-	void changeOutfit(String newOutfit) {
-		this.outfit = newOutfit;
-	}
+	// add functions for what you can generally do with the dolls
+		// for ex: change their outfits
 	
-	void changeHairColor(String newHairColor) {
-		this.hairColor = newHairColor;
-	}
-	
-	public String toString() {
-		return "Hello, I am " + this.name + ". I am a " + this.career 
-				+ "I love to wear " + this.outfit + ".";
-	}
+	// use the toString() function to be able to print the object in the terminal 
 	
 	
-	void present() {
-		System.out.println(toString());
-	}
+	// create a present() function to present the Doll by Calling the toString() function 
 	
 }

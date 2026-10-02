@@ -1,2 +1,2 @@
 # BarbieAndBratz
-CodeElle workshop on GitHub
+CodElle workshop on GitHub
